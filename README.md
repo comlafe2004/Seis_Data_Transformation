@@ -127,6 +127,7 @@ Example (SEGY input):
 User-defined parameters
 -----------------------
 Key options:
+
   --dt-ms		Sampling interval in ms (used for time axis)
 
   --tmax-ms		Trace length in ms (used for time axis; if omitted, uses n_samples*dt_ms)
