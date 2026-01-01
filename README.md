@@ -127,19 +127,30 @@ Example (SEGY input):
 User-defined parameters
 -----------------------
 Key options:
-  --dt-ms                 Sampling interval in ms (used for time axis)
-  --tmax-ms               Trace length in ms (used for time axis; if omitted, uses n_samples*dt_ms)
-  --clip                  Symmetric clip for plots (e.g., 60 means [-60, 60]; if omitted uses robust percentiles)
-  --peak-prom             Prominence threshold for peak picking (default auto)
-  --peak-dist             Minimum peak distance in samples
-  --rf-trees              Number of trees in RandomForest
-  --rf-max-depth          Max depth for RandomForest (None = unlimited)
-  --rf-threshold          Probability threshold for flipping (default 0.70)
-  --roll-win              Rolling window (samples) for rolling mean/std features
-  --trace-step-wiggle      1=all traces, 2=every 2nd trace, etc.
+  --dt-ms		Sampling interval in ms (used for time axis)
+
+  --tmax-ms		Trace length in ms (used for time axis; if omitted, uses n_samples*dt_ms)
+
+  --clip		Symmetric clip for plots (e.g., 60 means [-60, 60]; if omitted uses robust percentiles)
+
+  --peak-prom		Prominence threshold for peak picking (default auto)
+
+  --peak-dist		Minimum peak distance in samples
+
+  --rf-trees		Number of trees in RandomForest
+
+  --rf-max-depth	Max depth for RandomForest (None = unlimited)
+
+  --rf-threshold	Probability threshold for flipping (default 0.70)
+
+  --roll-win		Rolling window (samples) for rolling mean/std features
+
+  --trace-step-wiggle	1=all traces, 2=every 2nd trace, etc.
 
 If your TXT file has traces in ROWS instead of columns
+
 ------------------------------------------------------
+
 Use --txt-orientation rows
 
 
