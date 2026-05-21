@@ -1,3 +1,10 @@
+# RMSD-Based Seismic Transformation Framework
+
+Version 1.0.0
+
+Rule, ML, and ML-Proxy Implementations for Seismic Polarity Transformation and Thin-Bed Enhancement
+
+
 For rule_transformation:
 
 RMSD Adjacent-Peak RULE Transformation (SEGY or TXT) + Visualisations
@@ -102,7 +109,7 @@ If the proxy only flips positive samples:
 So you should NOT see red in Proxy-Original unless:
 - the difference was computed in the wrong order, OR
 - negative samples were flipped, OR
-- a non-signed difference/absolute value was used.
+- A non-signed difference/absolute value was used.
 
 Requirements
 ------------
